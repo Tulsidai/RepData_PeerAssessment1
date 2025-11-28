@@ -50,7 +50,7 @@ ggplot(data = activity_per_interval) +
   ggtitle("Average Number of Steps Taken per Interval")
 ```
 
-```{r}
+```{r, echo=TRUE}
 activity_per_interval[which.max(activity_per_interval$steps),]
 ```
 
